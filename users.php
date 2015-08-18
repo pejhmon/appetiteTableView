@@ -34,7 +34,7 @@
                         <td><?php echo $row["dateofbirth"]; ?></td>
                         <td><?php echo $row["gender"]; ?></td>
                         <td><?php echo $row["activitylevel"]; ?></td>
-                        <td><?php echo $row["registrationtimestamp"]; ?></td>
+                        <td><?php echo date_format($row["registrationtimestamp"],'d/m/Y H:i:s'); ?></td>
                     </tr>
                 <?php
                     }

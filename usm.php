@@ -29,7 +29,7 @@
                     <tr>
                         <td><?php echo $row["id"]; ?></td>
                         <td><?php echo $row["userid"]; ?></td>
-                        <td><?php echo $row["datetime"]; ?></td>
+                        <td><?php echo date_format($row["datetime"],'d/m/Y H:i:s'); ?></td>
                         <td><?php echo $row["symptomtable"]; ?></td>
                         <td><?php echo $row["symptomid"]; ?></td>
                         <td><?php echo $row["symptom"]; ?></td>

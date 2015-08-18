@@ -20,7 +20,7 @@
                     $result = sqlsrv_query($conn, $query) or die("Query failed");
                 ?>
                 <?php
-                    while($row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)){
+                    while($row = sqlsrv_fetch_array($result)){
                 ?>
                     <tr>
                         <td><?php echo $row["id"]; ?></td>

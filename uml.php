@@ -9,13 +9,18 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>group</th>
-                    <th>password</th>
-                    <th>nhsnumber</th>
-                    <th>dateofbirth</th>
-                    <th>gender</th>
-                    <th>activitylevel</th>
-                    <th>registrationtimestamp</th>
+                    <th>userid</th>
+                    <th>datetime</th>
+                    <th>mealname</th>
+                    <th>foodtable</th>
+                    <th>foodcode</th>
+                    <th>edibleproportion</th>
+                    <th>foodname</th>
+                    <th>quantity</th>
+                    <th>energy_kcal</th>
+                    <th>protein_g</th>
+                    <th>water_g</th>
+                    <th>fat_g</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,13 +34,18 @@
                 ?>
                     <tr>
                         <td><?php echo $row["id"]; ?></td>
-                        <td><?php echo $row["group"]; ?></td>
-                        <td><?php echo $row["password"]; ?></td>
-                        <td><?php echo $row["nhsnumber"]; ?></td>
-                        <td><?php echo $row["dateofbirth"]; ?></td>
-                        <td><?php echo $row["gender"]; ?></td>
-                        <td><?php echo $row["activitylevel"]; ?></td>
-                        <td><?php echo $row["registrationtimestamp"]; ?>
+                        <td><?php echo $row["userid"]; ?></td>
+                        <td><?php echo $row["datetime"]; ?></td>
+                        <td><?php echo $row["mealname"]; ?></td>
+                        <td><?php echo $row["foodtable"]; ?></td>
+                        <td><?php echo $row["foodcode"]; ?></td>
+                        <td><?php echo $row["edibleproportion"]; ?></td>
+                        <td><?php echo $row["foodname"]; ?></td>
+                        <td><?php echo $row["quantity"]; ?></td>
+                        <td><?php echo $row["energy_kcal"]; ?></td>
+                        <td><?php echo $row["protein_g"]; ?></td>
+                        <td><?php echo $row["water_g"]; ?>
+                        <td><?php echo $row["fat_g"]; ?></td>
                     </tr>
                 <?php
                     }

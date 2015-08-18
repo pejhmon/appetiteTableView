@@ -46,6 +46,7 @@
                         <td><?php echo $row["protein_g"]; ?></td>
                         <td><?php echo $row["water_g"]; ?>
                         <td><?php echo $row["carbohydrate_g"]; ?></td>
+                        <td><?php echo $row["fat_g"]; ?></td>
                         <td><?php echo $row["meal"]; ?>
                     </tr>
                 <?php

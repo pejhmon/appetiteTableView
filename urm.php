@@ -9,13 +9,21 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>group</th>
-                    <th>password</th>
-                    <th>nhsnumber</th>
-                    <th>dateofbirth</th>
+                    <th>userid</th>
+                    <th>datetime</th>
                     <th>gender</th>
+                    <th>weight</th>
                     <th>activitylevel</th>
-                    <th>registrationtimestamp</th>
+                    <th>formulacalories</th>
+                    <th>formulaprotein</th>
+                    <th>formulafluid</th>
+                    <th>additionalcalories</th>
+                    <th>additionalprotein</th>
+                    <th>additionalfluid</th>
+                    <th>additionalactivitylevel</th>
+                    <th>finalcalories</th>
+                    <th>finalprotein</th>
+                    <th>finalfluid</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,13 +37,21 @@
                 ?>
                     <tr>
                         <td><?php echo $row["id"]; ?></td>
-                        <td><?php echo $row["group"]; ?></td>
-                        <td><?php echo $row["password"]; ?></td>
-                        <td><?php echo $row["nhsnumber"]; ?></td>
-                        <td><?php echo $row["dateofbirth"]; ?></td>
+                        <td><?php echo $row["userid"]; ?></td>
+                        <td><?php echo $row["datetime"]; ?></td>
                         <td><?php echo $row["gender"]; ?></td>
+                        <td><?php echo $row["weight"]; ?></td>
                         <td><?php echo $row["activitylevel"]; ?></td>
-                        <td><?php echo $row["registrationtimestamp"]; ?>
+                        <td><?php echo $row["formulacalories"]; ?></td>
+                        <td><?php echo $row["formulaprotein"]; ?></td>
+                        <td><?php echo $row["formulafluid"]; ?></td>
+                        <td><?php echo $row["additionalcalories"]; ?></td>
+                        <td><?php echo $row["additionalprotein"]; ?></td>
+                        <td><?php echo $row["additionalfluid"]; ?></td>
+                        <td><?php echo $row["additionalactivitylevel"]; ?></td>
+                        <td><?php echo $row["finalcalories"]; ?></td>
+                        <td><?php echo $row["finalprotein"]; ?></td>
+                        <td><?php echo $row["finalfluid"]; ?></td>
                     </tr>
                 <?php
                     }

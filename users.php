@@ -4,7 +4,7 @@
 <div class='container'>
     <div class="row">
         <br/><br/><br/><br/><br/><br/><br/>
-        
+
         <table class="table table-hover">
             <thead>
                 <tr>
@@ -35,7 +35,7 @@
                         <td><?php echo $row["dateofbirth"]; ?></td>
                         <td><?php echo $row["gender"]; ?></td>
                         <td><?php echo $row["activitylevel"]; ?></td>
-                        <td><?php echo $row["registrationtimestamp"]; ?>
+                        <td><?php echo $row["registrationtimestamp"]; ?></td>
                     </tr>
                 <?php
                     }

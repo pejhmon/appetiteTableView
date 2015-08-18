@@ -9,13 +9,9 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>group</th>
-                    <th>password</th>
-                    <th>nhsnumber</th>
-                    <th>dateofbirth</th>
-                    <th>gender</th>
-                    <th>activitylevel</th>
-                    <th>registrationtimestamp</th>
+                    <th>userid</th>
+                    <th>datetime</th>
+                    <th>symptom</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,13 +25,9 @@
                 ?>
                     <tr>
                         <td><?php echo $row["id"]; ?></td>
-                        <td><?php echo $row["group"]; ?></td>
-                        <td><?php echo $row["password"]; ?></td>
-                        <td><?php echo $row["nhsnumber"]; ?></td>
-                        <td><?php echo $row["dateofbirth"]; ?></td>
-                        <td><?php echo $row["gender"]; ?></td>
-                        <td><?php echo $row["activitylevel"]; ?></td>
-                        <td><?php echo $row["registrationtimestamp"]; ?>
+                        <td><?php echo $row["userid"]; ?></td>
+                        <td><?php echo $row["datetime"]; ?></td>
+                        <td><?php echo $row["symptom"]; ?></td>
                     </tr>
                 <?php
                     }

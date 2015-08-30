@@ -31,7 +31,7 @@
                         <td><?php echo $row["admin"]; ?></td>
                         <td><?php echo $row["password"]; ?></td>
                         <td><?php echo $row["nhsnumber"]; ?></td>
-                        <td><?php echo $row["dateofbirth"]; ?></td>
+                        <td><?php echo date_format($row["dateofbirth"],'d/m/Y H:i:s'); ?></td>
                         <td><?php echo $row["gender"]; ?></td>
                         <td><?php echo $row["activitylevel"]; ?></td>
                         <td><?php echo date_format($row["registrationtimestamp"],'d/m/Y H:i:s'); ?></td>

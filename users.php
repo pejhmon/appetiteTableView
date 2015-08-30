@@ -9,7 +9,7 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>group</th>
+                    <th>admin</th>
                     <th>password</th>
                     <th>nhsnumber</th>
                     <th>dateofbirth</th>
@@ -28,7 +28,7 @@
                 ?>
                     <tr>
                         <td><?php echo $row["id"]; ?></td>
-                        <td><?php echo $row["group"]; ?></td>
+                        <td><?php echo $row["admin"]; ?></td>
                         <td><?php echo $row["password"]; ?></td>
                         <td><?php echo $row["nhsnumber"]; ?></td>
                         <td><?php echo $row["dateofbirth"]; ?></td>
